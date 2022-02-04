@@ -1,13 +1,13 @@
 ---
 title: 通过网页唤醒BiliBili的方法
 date: 2022-02-04 18:52:49
-categrories:
+categories:
 - web前端
-- 哔哩哔哩
 tags: 
 - BiliBili
 - Url
-cover: https://api.yimian.xyz/img?type=moe
+# cover: https://api.yimian.xyz/img?type=moe
+cover: /covers/cover-2.jpg
 excerpt: 前言 大家应该都知道在浏览器中输入...
 ---
 ## 前言
