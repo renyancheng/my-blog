@@ -21,10 +21,10 @@ head:
     # The start URL of the web application
     start_url: https://blog.muxiuge.cn
     # The default theme color for the application
-    theme_color: '#ffffffs'
+    theme_color: "#ffffffs"
     # A placeholder background color for the application page to display
     # before its stylesheet is loaded
-    background_color: '#ffffff'
+    background_color: "#ffffff"
     # The preferred display mode for the website
     display: standalone
     # Image files that can serve as application icons for different contexts
@@ -161,56 +161,56 @@ search:
   type: insight
 # Comment plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment/
-comment:
-  type: disqus
-  # Disqus shortname
-  shortname: ""
+# comment:
+#   type: disqus
+#   # Disqus shortname
+#   shortname: ""
 # Donate plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Donation/
-donates:
-  # "Afdian.net" donate button configurations
-  - type: afdian
-    # URL to the "Afdian.net" personal page
-    url: ""
-  # Alipay donate button configurations
-  - type: alipay
-    # Alipay qrcode image URL
-    qrcode: ""
-  # "Buy me a coffee" donate button configurations
-  - type: buymeacoffee
-    # URL to the "Buy me a coffee" page
-    url: ""
-  # Patreon donate button configurations
-  - type: patreon
-    # URL to the Patreon page
-    url: ""
-  # Paypal donate button configurations
-  - type: paypal
-    # Paypal business ID or email address
-    business: ""
-    # Currency code
-    currency_code: USD
-  # Wechat donate button configurations
-  - type: wechat
-    # Wechat qrcode image URL
-    qrcode: ""
+# donates:
+#   # "Afdian.net" donate button configurations
+#   - type: afdian
+#     # URL to the "Afdian.net" personal page
+#     url: ""
+#   # Alipay donate button configurations
+#   - type: alipay
+#     # Alipay qrcode image URL
+#     qrcode: ""
+#   # "Buy me a coffee" donate button configurations
+#   - type: buymeacoffee
+#     # URL to the "Buy me a coffee" page
+#     url: ""
+#   # Patreon donate button configurations
+#   - type: patreon
+#     # URL to the Patreon page
+#     url: ""
+#   # Paypal donate button configurations
+#   - type: paypal
+#     # Paypal business ID or email address
+#     business: ""
+#     # Currency code
+#     currency_code: USD
+#   # Wechat donate button configurations
+#   - type: wechat
+#     # Wechat qrcode image URL
+#     qrcode: ""
 # Share plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share/
 share:
   type: sharethis
   # URL to the ShareThis share plugin script
-  install_url: ""
+  install_url: "https://platform-api.sharethis.com/js/sharethis.js#property=61fc8acb9343fb0019ed0c7a&product=inli"
 # Sidebar configurations.
 # Please be noted that a sidebar is only visible when it has at least one widget
 sidebar:
   # Left sidebar configurations
   left:
     # Whether the sidebar sticks to the top when page scrolls
-    sticky: false
+    sticky: true
   # Right sidebar configurations
   right:
     # Whether the sidebar sticks to the top when page scrolls
-    sticky: false
+    sticky: true
 # Sidebar widget configurations
 # http://ppoffice.github.io/hexo-theme-icarus/categories/Widgets/
 widgets:
@@ -219,36 +219,33 @@ widgets:
     position: left
     type: profile
     # Author name
-    author: Your name
+    author: 沐风
     # Author title
-    author_title: Your title
+    author_title: 摸🐟ing
     # Author's current location
-    location: Your location
+    location: HeBei,XuanHua
     # URL or path to the avatar image
-    avatar:
+    avatar: https://q1.qlogo.cn/g?b=qq&nk=2441260435&s=640
     # Whether show the rounded avatar image
-    avatar_rounded: false
+    avatar_rounded: true
     # Email address for the Gravatar
     gravatar:
     # URL or path for the follow button
-    follow_link: https://github.com/ppoffice
+    follow_link: https://github.com/mufeng233
     # Links to be shown on the bottom of the profile widget
     social_links:
+      QQ:
+        icon: fab fa-qq
+        url: http://wpa.qq.com/msgrd?v=3&uin=2441260435&site=qq&menu=yes
       Github:
         icon: fab fa-github
-        url: https://github.com/ppoffice
-      Facebook:
-        icon: fab fa-facebook
-        url: https://facebook.com
-      Twitter:
-        icon: fab fa-twitter
-        url: https://twitter.com
-      Dribbble:
-        icon: fab fa-dribbble
-        url: https://dribbble.com
+        url: https://github.com/mufeng233
+    #   Bili:
+    #     icon: fab fa-television
+    #     url: https://space.bilibili.com/440160530
       RSS:
         icon: fas fa-rss
-        url: /
+        url: /atom.xml
   # Table of contents widget configurations
   - # Where should the widget be placed, left sidebar or right sidebar
     position: left
@@ -265,8 +262,9 @@ widgets:
     type: links
     # Names and URLs of the sites
     links:
-      Hexo: https://hexo.io
-      Bulma: https://bulma.io
+    #   Hexo: https://hexo.io
+    #   Bulma: https://bulma.io
+        萌新杰少の秘密基地: https://imcys.com
   # Categories widget configurations
   - # Where should the widget be placed, left sidebar or right sidebar
     position: left
@@ -284,31 +282,31 @@ widgets:
     position: left
     type: tags
   # Google FeedBurner email subscription widget configurations
-  - # Where should the widget be placed, left sidebar or right sidebar
-    position: left
-    type: subscribe_email
-    # Hint text under the email input
-    description:
-    # Feedburner ID
-    feedburner_id: ""
+  #- # Where should the widget be placed, left sidebar or right sidebar
+  # position: left
+  # type: subscribe_email
+  # # Hint text under the email input
+  # description:
+  # # Feedburner ID
+  # feedburner_id: ""
   # Google AdSense unit configurations
-  - # Where should the widget be placed, left sidebar or right sidebar
-    position: left
-    type: adsense
-    # AdSense client ID
-    client_id: ""
-    # AdSense AD unit ID
-    slot_id: ""
+  #- # Where should the widget be placed, left sidebar or right sidebar
+  # position: left
+  # type: adsense
+  # # AdSense client ID
+  # client_id: ""
+  # # AdSense AD unit ID
+  # slot_id: ""
   # Follow.it email subscription widget configurations
-  - # Where should the widget be placed, left sidebar or right sidebar
-    position: left
-    type: followit
-    # Hint text under the email input
-    description:
-    # Subscription form action URL
-    action_url: ""
-    # Feed claiming verification code
-    verification_code: ""
+  #- # Where should the widget be placed, left sidebar or right sidebar
+  # position: left
+  # type: followit
+  # # Hint text under the email input
+  # description:
+  # # Subscription form action URL
+  # action_url: ""
+  # # Feed claiming verification code
+  # verification_code: ""
 # Plugin configurations
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/
 plugins:
